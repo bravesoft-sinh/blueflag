@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('rooms', 'RoomController@index');
+Route::get('/rooms', 'RoomController@index');
 
