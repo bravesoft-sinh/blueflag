@@ -17,7 +17,7 @@ inner join room r on ur.room_id = r.id');
             'code' => 200,
             'message' => 'success',
             'data' => [
-                'room' => $rooms
+                'rooms' => $rooms
             ]
         ], 200);
 
