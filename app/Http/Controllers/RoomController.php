@@ -18,7 +18,7 @@ class RoomController extends Controller
             'data' => [
                 'room' => $rooms
             ]
-        ], CODE_SUCCESS);
+        ], 200);
 
 
     }
